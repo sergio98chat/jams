@@ -1,0 +1,34 @@
+From f15e3b8b2f52e8f8565a144d4e2a6106d14d397e Mon Sep 17 00:00:00 2001
+From: sergio98chat <80786136+sergio98chat@users.noreply.github.com>
+Date: Mon, 24 Jun 2024 23:41:22 +0200
+Subject: [PATCH] Revert "Revert "no message""
+
+This reverts commit d92b9596c038e47e2e7c23340772f4851ee5c037.
+---
+ Config/DefaultEngine.ini | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+ create mode 100644 Config/DefaultEngine.ini
+
+diff --git a/Config/DefaultEngine.ini b/Config/DefaultEngine.ini
+new file mode 100644
+index 0000000..665dea8
+--- /dev/null
++++ b/Config/DefaultEngine.ini
+@@ -0,0 +1,14 @@
++[/Script/AndroidFileServerEditor.AndroidFileServerRuntimeSettings]
++bEnablePlugin=True
++bAllowNetworkConnection=True
++SecurityToken=7FB53FD94A63A345EA2B3F9A03003C52
++bIncludeInShipping=False
++bAllowExternalStartInShipping=False
++bCompileAFSProject=False
++bUseCompression=False
++bLogFiles=False
++bReportStats=False
++ConnectionType=USBOnly
++bUseManualIPAddress=False
++ManualIPAddress=
++
+-- 
+2.39.1.windows.1
+
